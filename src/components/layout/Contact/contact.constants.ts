@@ -1,1 +1,1 @@
-export const TITLE_MESSAGE = "Entre em contato caso tenha interesse"
+export const TITLE_MESSAGE = "Mande um e-mail se preferir!"
