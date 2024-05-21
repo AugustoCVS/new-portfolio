@@ -2,7 +2,7 @@ import { OptionsList } from "./options.constants";
 
 export const Options: React.FC<{ onClick?: () => void }> = ({ onClick }) => {
   return (
-    <ul className="md1:flex md1:flex-row md1:items-center md1:gap-8 md1:mb-0 flex flex-col items-center justify-between mb-4 gap-8">
+    <ul className="flex flex-col items-center justify-between mb-4 gap-8">
       {OptionsList.map((option) => {
         return (
           <a
