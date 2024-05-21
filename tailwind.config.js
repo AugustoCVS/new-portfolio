@@ -32,6 +32,9 @@ const config = {
         500: "#AB222E",
         700: "#7A1921",
       },
+      purple: {
+        600: "#9333EA",
+      }
     },
     screens: {
       xsm: '375px',
