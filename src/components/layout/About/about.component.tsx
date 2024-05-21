@@ -10,7 +10,7 @@ export const About: React.FC = () => {
   return (
     <Information.Root id="about">
       <Title />
-      <div className="mt-[-100px]">
+      <div className="mt-[-60px] sm:mt-[-100px]">
         <Information.Wrapper isAbout>
           <Animation animation={animationData} dataAos="fade-up" />
           <Text />

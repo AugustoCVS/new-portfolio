@@ -9,8 +9,8 @@ function App() {
     <div className="flex flex-col w-full h-full bg-white overflow-y-scroll gap-4">
       <Header />
       <Hero />
-      <About />
       <Projects />
+      <About />
       <Contact />
     </div>
   );

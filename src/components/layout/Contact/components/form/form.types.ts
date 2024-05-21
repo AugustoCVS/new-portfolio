@@ -3,7 +3,7 @@ import { FormSchema } from './form.constants';
 
 export type formProps = yup.InferType<typeof FormSchema>
 
-export type nameOptions = "name" | "email" | "phone" | "message"
+export type nameOptions = "name" | "email" | "message"
 
 export type FormFieldProps = {
   id: number;

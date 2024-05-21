@@ -4,12 +4,12 @@ export const OptionsList = [
     id: "hero",
   },
   {
-    title: "Sobre",
-    id: "about",
-  },
-  {
     title: "Projetos",
     id: "projects",
+  },
+  {
+    title: "Sobre",
+    id: "about",
   },
   {
     title: "Contato",
