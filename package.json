@@ -20,6 +20,7 @@
     "@types/tailwindcss": "^3.1.0",
     "aos": "^3.0.0-beta.6",
     "axios": "^1.6.8",
+    "framer-motion": "^11.2.5",
     "lottie-web": "^5.12.2",
     "lucide-react": "^0.364.0",
     "react": "^18.2.0",
