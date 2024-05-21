@@ -17,12 +17,14 @@ export const Header: React.FC = () => {
       <AnimatePresence mode="wait">
         {states.isOpen && (
           <motion.div
-            className="w-80 h-screen right-0 top-0 fixed backdrop-blur-md shadow-md flex flex-col items-center justify-center sm:w-[30rem] z-20"
+            className="w-80 h-screen right-0 top-0 fixed backdrop-blur-md shadow-md flex flex-col items-center justify-center sm:w-[30rem] z-20 gap-4"
             variants={menuSlide}
             animate="enter"
             exit="exit"
             initial="initial"
           >
+            <Icon />
+
             <Options />
 
             <Button className="px-4 py-2 border border-purple-600 font-semibold bg-purple-600 text-white rounded-full">
@@ -49,8 +51,6 @@ export const Header: React.FC = () => {
           onClick={actions.toggleMenu}
         />
       </div>
-
-      <Icon />
 
       {renderMenuContent()}
     </div>
