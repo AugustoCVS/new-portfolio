@@ -2,7 +2,7 @@ import { About } from "./components/layout/About/about.component";
 import { Contact } from "./components/layout/Contact/contact.component";
 import { Header } from "./components/layout/Header/header.components";
 import { Hero } from "./components/layout/Hero/hero.component";
-import { Service } from "./components/layout/Service/service.component";
+import { Projects } from "./components/layout/Projects/projects.component";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <Service />
+      <Projects />
       <Contact />
     </div>
   );

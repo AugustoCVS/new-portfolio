@@ -9,7 +9,7 @@ export const DescriptionText = [
   },
   {
     id: 2,
-    text: "Desenvolvimento de testes automatizados com jest (testing library), tendo realizado mais de 350 testes e aumentado consideravelmente o coverage da aplicação."
+    text: "Desenvolvimento de testes automatizados com jest (testing library), tendo realizado mais de 350 testes e aumentado consideravelmente o coverage da aplicação de um unico projeto."
   },
   {
     id: 3,

@@ -5,7 +5,7 @@ export const Text: React.FC = () => {
   return (
     <Information.Content dataAos="flip-right">
       <div className="p-8 pt-[-8] rounded-md backdrop-blur-sm">
-        <Information.Title text="Experiências profissionais" />
+        <Information.Title text="Experiência profissional" />
 
         {DescriptionText.map((description) => (
           <Information.Description

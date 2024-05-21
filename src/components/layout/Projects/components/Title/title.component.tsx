@@ -5,17 +5,15 @@ export const Title: React.FC = () => {
   return (
     <Information.TextWrapper>
       <Information.Title
-        text="Serviços AGT | DEV"
+        text="Projetos Desenvolvidos"
         dataAos="fade-up"
         isFirstTitle
       />
 
       <Information.Subtitle
-        text="Melhor solução para o seu negócio no"
+        text="Eleve seu time com um desenvolvedor de qualidade"
         dataAos="fade-down"
-      >
-        <p className="text-purple-600 flex-1">mundo digital</p>
-      </Information.Subtitle>
+      />
     </Information.TextWrapper>
   );
 };
