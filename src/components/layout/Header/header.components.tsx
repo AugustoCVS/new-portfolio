@@ -41,7 +41,7 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <div className="w-full flex items-center justify-between p-8 z-20">
+    <div className="fixed w-full flex items-center justify-between p-8 z-20">
       <div className="flex flex-row items-center absolute top-[21px] right-4">
         <Menu
           className="text-purple-600 cursor-pointer"
