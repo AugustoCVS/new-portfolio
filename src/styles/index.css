@@ -9,15 +9,15 @@
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased
 }
 
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: #202024;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #323238;
+  background-color: rgb(147 51 234 );
   border-radius: 10px;
 }

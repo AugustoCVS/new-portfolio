@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -27,7 +25,7 @@ export const Curve: React.FC = () => {
   };
 
   return (
-    <svg className="absolute top-0 left-[-99px] w-[100px] h-full min-h-screen stroke-none fill-gray-600">
+    <svg className="absolute top-0 left-[-99px] w-[100px] h-full min-h-screen stroke-none fill-transparent backdrop-blur-md">
       <motion.path
         variants={curve}
         initial="initial"

@@ -7,6 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { menuSlide } from "./header.constants";
 import { useHeader } from "./header.hook";
 import { Menu } from "lucide-react";
+import { Curve } from "./components/Curve/curve.component";
 
 export const Header: React.FC = () => {
   const { states, actions } = useHeader();
@@ -31,6 +32,8 @@ export const Header: React.FC = () => {
             <div className="flex flex-row items-center absolute top-[21px] right-4">
               <MenuButtons toggleMenu={actions.toggleMenu} />
             </div>
+
+            <Curve />
           </motion.div>
         )}
       </AnimatePresence>
