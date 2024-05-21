@@ -3,13 +3,13 @@ export const SOCIAL_MEDIA = [
     id: 0,
     icon: "github",
     link: "https://github.com/AugustoCVS",
-    text: "AugustoCVS",
+    text: "Github",
   },
   {
     id: 1,
     icon: "linkedin",
     link: "https://www.linkedin.com/in/augusto-santana-fullstack/",
-    text: "Augusto Santana",
+    text: "Linkedin",
   },
   {
     id: 3,
@@ -19,6 +19,7 @@ export const SOCIAL_MEDIA = [
   {
     id: 4,
     icon: "phone",
-    text: "+55 (11) 95298-0373",
+    link: "https://api.whatsapp.com/send/?phone=5511952980373",
+    text: "WhatsApp",
   },
 ]
