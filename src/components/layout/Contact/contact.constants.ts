@@ -1,0 +1,1 @@
+export const TITLE_MESSAGE = "Entre em contato para agendar seu primeiro passo em direção ao futuro"
