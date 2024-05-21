@@ -1,4 +1,4 @@
-import { FaReact } from "react-icons/fa";
+import { FaAngular, FaReact } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiNextdotjs } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
@@ -6,7 +6,6 @@ import { TbBrandReactNative } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiNestjs } from "react-icons/si";
 import { SiJest } from "react-icons/si";
-import { SiTestinglibrary } from "react-icons/si";
 
 export const IconList: React.FC = () => {
   return (
@@ -19,7 +18,7 @@ export const IconList: React.FC = () => {
       <RiTailwindCssFill size={32} color="#06B6D4" />
       <SiNestjs size={32} color="#E0234E" />
       <SiJest size={30} color="#C21325" />
-      <SiTestinglibrary size={32} color="#E33332" />
+      <FaAngular size={32} color="#DD0031" />
     </div>
   );
 };
