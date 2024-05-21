@@ -1,1 +1,26 @@
-export const DescriptionText = "A AGT DEV é especializada em criar soluções digitais personalizadas, desde landing pages modernas e responsivas até sites institucionais e lojas virtuais. Com foco em atrair e converter, nossa equipe combina design inovador e técnicas de SEO para impulsionar o sucesso de seu negócio online. Seja para captar leads, apresentar sua marca ou expandir suas vendas, estamos aqui para transformar sua visão digital em realidade. Bem-vindo à AGT DEV, onde construímos seu espaço online com paixão e expertise."
+export const DescriptionText = [
+  {
+    id: 0,
+    text: "Desenvolvedor fullstack com experiência em projetos de pequeno, médio e grande porte."
+  },
+  {
+    id: 1,
+    text: "Construção e implementação de novas funcionalidades utilizando typescript."
+  },
+  {
+    id: 2,
+    text: "Desenvolvimento de testes automatizados com jest (testing library), tendo realizado mais de 350 testes e aumentado consideravelmente o coverage da aplicação."
+  },
+  {
+    id: 3,
+    text: "Desenvolvimento de aplicações web utilizando React, React Native, Next.js, Redux, Context API, Hooks, Styled Components, Tailwind entre outras tecnologias."
+  },
+  {
+    id: 4,
+    text: "Implementação do IDP auth0 em prod com o objetivo de melhorar a segurança na autentificação da aplicação."
+  },
+  {
+    id: 5,
+    text: "Implementação de componentização com React e React native, tendo um forte impacto na refatoração e melhoria do código, principalmente aplicando o design pattern Compound Components"
+  }
+]

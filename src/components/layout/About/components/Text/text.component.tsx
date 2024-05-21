@@ -4,9 +4,16 @@ import { DescriptionText } from "./text.constants";
 export const Text: React.FC = () => {
   return (
     <Information.Content dataAos="flip-right">
-      <Information.Title text="Construindo seu Espaço Online" />
+      <div className="p-8 pt-[-8] rounded-md backdrop-blur-sm">
+        <Information.Title text="Experiências profissionais" />
 
-      <Information.Description text={DescriptionText} dataAos="fade-left" />
+        {DescriptionText.map((description) => (
+          <Information.Description
+            key={description.id}
+            text={description.text}
+          />
+        ))}
+      </div>
     </Information.Content>
   );
 };
