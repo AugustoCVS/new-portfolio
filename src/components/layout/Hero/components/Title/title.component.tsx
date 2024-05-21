@@ -11,7 +11,9 @@ export const Title: React.FC = () => {
       <IconList />
 
       <div className="mt-8">
-        <Button>Venha conhecer</Button>
+        <a href={`/#contact`} className="decoration-none">
+          <Button>Entre em contato</Button>
+        </a>
       </div>
     </Information.Content>
   );
