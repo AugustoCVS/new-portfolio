@@ -13,7 +13,6 @@ export const useContactForm = () => {
     return {
       from_name: data.name,
       email: data.email,
-      phone: data.phone,
       message: data.message,
     };
   }
