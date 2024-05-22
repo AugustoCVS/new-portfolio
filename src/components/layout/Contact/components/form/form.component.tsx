@@ -20,7 +20,6 @@ export const Form: React.FC = () => {
     defaultValues: {
       name: "",
       email: "",
-      phone: "",
       message: "",
     },
   });
@@ -67,9 +66,9 @@ export const Form: React.FC = () => {
     );
   };
 
-  //TODO: ADD RESET NO FORMULARIO, E ADD SPINNER NO BOTÃO DE ENVIAR
+  //TODO: ADD RESET NO FORMULARIO
   return (
-    <Information.Wrapper>
+    <Information.Wrapper dataAos="fade-down">
       <form
         className="flex flex-col gap-4 w-full items-center"
         onSubmit={handleSubmit(actions.handleSendEmail)}

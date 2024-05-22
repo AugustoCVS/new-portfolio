@@ -4,11 +4,6 @@ import { FormFieldProps, ToastType } from './form.types';
 export const FormSchema = yup.object().shape({
   name: yup.string().required('O nome é obrigatório'),
   email: yup.string().email('E-mail inválido').required('O e-mail é obrigatório'),
-  phone: yup.string().test('phone', 'Telefone inválido', value => {
-    if (!value) return false;
-    const phoneRegex = /^[0-9]{10,11}$/;
-    return phoneRegex.test(value);
-  }).required('O telefone é obrigatório'),
   message: yup.string().required('A descrição é obrigatória'),
 });
 
@@ -26,15 +21,9 @@ export const formFields: FormFieldProps[] = [
     type: 'email',
   },
   {
-    id: 2,
-    name: 'phone',
-    placeholder: 'Preencha com seu melhor número',
-    type: 'text',
-  },
-  {
     id: 3,
     name: 'message',
-    placeholder: 'Faça uma breve descrição do seu projeto',
+    placeholder: 'Faça uma breve descrição da vaga',
     type: 'textarea',
   },
 ];

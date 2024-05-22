@@ -5,7 +5,7 @@ export const Title: React.FC = () => {
   return (
     <Information.TextWrapper>
       <Information.Title
-        text="Conheça mais sobre a AGT | DEV"
+        text="Experiências"
         dataAos="fade-right"
         isFirstTitle
       />
