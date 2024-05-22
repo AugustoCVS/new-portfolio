@@ -36,7 +36,7 @@ export const InfosList = [
     techs: [
       "react",
       "typescript",
-      "sass",
+      "tailwind",
     ],
     linkGithub: "https://github.com/AugustoCVS/new-portfolio",
     linkProject: "https://main--agtportfolio.netlify.app",
