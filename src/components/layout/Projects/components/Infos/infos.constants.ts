@@ -39,7 +39,7 @@ export const InfosList = [
       "sass",
     ],
     linkGithub: "https://github.com/AugustoCVS/new-portfolio",
-    linkProject: "",
+    linkProject: "https://main--agtportfolio.netlify.app",
     dataAos: "fade-right",
   },
   {
