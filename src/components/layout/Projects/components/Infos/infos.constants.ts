@@ -79,7 +79,7 @@ export const InfosList = [
     tag: "finnance",
     description: "API controle financeiro desenvolvido em Express para listagem de transações e controle de saldo, podendo adicionar e remover transações e contas.",
     techs: [
-      "nest",
+      "node",
       "typescript",
       "prisma",
       "postgresql",
