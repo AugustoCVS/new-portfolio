@@ -10,6 +10,7 @@ import { SiJest } from "react-icons/si";
 export const IconList: React.FC = () => {
   return (
     <div className="flex flex-row gap-2 mt-4">
+      <FaAngular size={32} color="#DD0031" />
       <FaReact size={32} color="#61DAFB" />
       <BiLogoTypescript size={32} color="#3178C6" />
       <SiNextdotjs size={32} color="#000000" />
@@ -18,7 +19,6 @@ export const IconList: React.FC = () => {
       <RiTailwindCssFill size={32} color="#06B6D4" />
       <SiNestjs size={32} color="#E0234E" />
       <SiJest size={30} color="#C21325" />
-      <FaAngular size={32} color="#DD0031" />
     </div>
   );
 };
