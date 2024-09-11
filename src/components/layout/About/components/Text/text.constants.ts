@@ -1,7 +1,7 @@
 export const DescriptionText = [
   {
     id: 0,
-    text: "Desenvolvedor fullstack com experiência em projetos de pequeno, médio e grande porte, conhecimento consolidado em React, React Native, Typescript, Redux, NextJs, Node, Nest, Jest e Testing Library.",
+    text: "Desenvolvedor fullstack com experiência em projetos de pequeno, médio e grande porte, conhecimento consolidado em Angular, React, React Native, Typescript, NgRx, Redux, NextJs, Node, Nest, Jest e Testing Library.",
   },
   {
     id: 1,
